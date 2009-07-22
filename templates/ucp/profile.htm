@@ -1,0 +1,21 @@
+<div  id="title">{#profile#}</div>
+
+<div id="cat_title">{#change_pass#}</div>
+
+<form name="pass" method="POST" action="ucp.php?ch=profile&act=send">
+<input type="text" name="old_pass" id="old_pass" />
+<input type="text" name="pass1" id="pass1" />
+<input type="text" name="pass2" id="pass2" />				
+<input type="submit" value="{#Send#}" />
+
+
+
+<div id="cat_title">{#change_lang#}</div>
+
+<select  name="lang" id="lang">
+ 	<option {if $ln==1}selected="selected"{/if} value="1">Polski</option>
+	<option {if $ln==2}selected="selected"{/if} value="2">English</option> 
+</select>				
+<input type="submit" value="{#Send#}" />
+
+</form>

@@ -1,0 +1,19 @@
+##################################
+#  Static Cube Images Generator  #
+#            ver. 0.2            #
+#                                #
+#       Copyright (c) 2006       #
+#        Tomasz Piotrowski       #
+##################################
+
+USAGE
+see doc/sample.php for an example, documentation doc/index.php
+
+PHP
+SCIG was tested under PHP 4.4.0 and 5.0.4. PHP GD is required.
+
+LICENSE
+SCIG is licensed under the GNU GPL license.
+
+CONTACT
+tomahawk_pl at users.sourceforge.net

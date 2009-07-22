@@ -1,0 +1,7 @@
+all:		transparent
+U:		yellow
+default:	white
+stickers:
+ red: RDF RF
+ blue: FRD FR
+arrows:		dark red

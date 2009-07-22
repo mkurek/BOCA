@@ -1,0 +1,392 @@
+body {width: 190mm;  margin: 0 auto; height: auto;}
+
+* a {text-decoration: none;}
+
+img {border: 0;}
+
+a:link {
+color: #000000;
+text-decoration: none;
+}
+
+a:visited {
+color: #000000;
+text-decoration: none;
+}
+
+a:hover {
+color: #000000;
+text-decoration: none;
+}
+
+a:active {
+color: #000000;
+text-decoration: none;
+}
+
+.top_menu {display: none;}
+.banner {display: none;}
+
+/*content */
+
+.content {margin: 5px 5px; height: auto; text-align: center;}
+
+
+/*footer */
+
+
+.footer {clear: both; height: 30px; margin-top: 10px;}
+
+
+#print_table td
+{
+	page-break-inside: avoid;
+	
+}
+
+
+/* algi */
+
+
+#clear
+{
+	clear: both;
+}
+
+/* cat */
+
+
+#top
+{
+	font-weight: bold;
+	padding: 5px;
+	border-bottom: 3px double silver;
+}
+
+
+#table_cell, #table_top
+{
+	border-spacing: 2px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 auto;
+	font: 13px normal Verdana;
+	width: auto;
+}
+
+
+#table_cell th
+{
+	font-style: italic;
+}
+
+/*
+#table_top th
+{
+	font-style: italic;
+	text-align: center;
+	vertical-align: middle;
+}
+*/
+
+#print_table
+{
+	width: 100%;
+}
+
+#print_table td[title~='nad']
+{
+	border-bottom: 1px groove silver;
+}
+
+.lewa
+{
+	border-right: 1px groove silver;
+}
+
+.prawa
+{
+	border-left: 1px groove silver;
+}
+
+/* img {width: 70%; height: 70%;} */
+
+#cell_with_alg
+{
+	padding: 7px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#title, #title_top
+{
+	font: 25px bold Arial;
+	margin: 10px auto;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	border-bottom: 3px double black;
+}
+
+#title2, #jac
+{
+	font: 20px normal Arial;
+}
+
+#clear_bor
+{
+	border-top: 2px groove silver;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	clear: both;
+}
+
+
+#title_big
+{
+   font-size: 30px;
+	font-family: Verdana;
+	font-weight: bold;
+	padding-top: 20px;
+	margin-bottom: 10px;
+	border-bottom: 2px double silver;
+	text-align: center;
+}
+
+#title_little
+{
+	font-size: 20px;
+	font-family: Verdana;
+	font-weight: bold;
+	margin: 0 auto;
+	padding-top: 15px;
+	text-align: center;
+	width: 70%;
+}
+
+.border70
+{
+	width: 70%;
+	border-bottom: 1px groove black;
+	margin: 0 auto;
+}
+
+#cell_special
+{
+	margin-top: 20px;
+}
+
+#title_cell
+{
+	font: 18px bold Verdana;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#content_foot
+{
+	margin-top: 20px;
+	font-style: italic;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/* case */
+
+/*
+#scig2 
+{
+	border: 1px groove silver; 
+	padding: 5px;
+	margin: 10px auto;
+}
+
+#scig2 table 
+{
+	border-spacing: 2px 0; 
+	margin: 0 auto; 
+	text-align: center;
+}
+
+#scig2 td 
+{
+	vertical-align: middle;
+	font-style: italic;
+}
+
+#scig2 img {margin: 0 auto;}
+
+
+#tree
+{
+	text-align: left;
+	padding: 10px; 
+}
+
+
+#cats, #jac
+{
+	margin: 20px auto; 	  	
+}
+
+#cats #cat
+{
+	font: 15px normal Verdana;
+	margin-top: 8px;
+	text-align: center;
+}
+
+#algs
+{
+	border-top: 3px double black;
+	padding-top: 20px;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+#alg
+{
+	outline: 2px groove yellow;	
+	margin-bottom: 30px;
+	height: auto;
+}
+
+#row, #row2, #row3, #my_alg30, #my_alg50, #alg_info100, #alg_info30, #alg_info50, #vote30, #vote50, #pole1, #pole2
+{
+	vertical-align: middle;
+	height: auto;
+}
+
+#row
+{
+ width: 100%;
+}
+
+#row2
+{
+	border-top: 1px dotted silver;
+	font-style: italic;
+}
+
+#row3
+{
+   padding-top: 5px;
+	border-top: 1px dotted silver;
+	margin-bottom: -20px;
+}
+
+#alg_ma
+{float: left;}
+
+#alg_main
+{
+	float: left;
+	vertical-align: middle;
+	font: 18px bold Verdana;
+	padding-left: 10px;
+	margin-bottom: 5px;
+}
+
+#alg_moves
+{
+float: right;
+padding: 2px;	
+}
+
+#my_alg30, #my_alg50
+{
+	float: left;
+	border-right: 5px double black;
+	font-weight: bold;
+	margin: 5px 0;
+}
+#my_alg30
+{
+	width: 30%;
+}
+#my_alg50
+{
+	width: 50%;
+}
+
+#alg_info30, #alg_info50
+{
+ 	float: left;
+}
+#alg_info30, #alg_info50
+{
+	margin: 5px 25px;	
+}
+
+#alg_info30
+{
+	width: 30%;
+}
+#alg_info50, #alg_info100
+{
+	width: 40%;
+}
+#alg_info100
+{
+	margin: 5px auto;
+	padding-bottom: 13px;
+}
+
+#pole1
+{
+	float: left;
+	
+}
+#pole2
+{
+	float: right;
+}
+
+#vote30, #vote50
+{
+	float: right;
+	border-left: 5px double black;
+	margin: 5px 0;
+}
+#vote50
+{
+	width: 50%;
+}
+#vote30
+{
+	width: 30%;
+}
+
+
+*/
+
+/* add_algs 
+
+.bold
+{
+	font-weight: bold;
+}
+
+#add_part
+{
+	margin: 10px auto;
+}
+
+#text
+{
+	background: #00FF7F;
+	font: 25px Verdana;
+
+}
+
+
+#content_foot
+{
+	margin-top: 30px;
+	font-style: italic;
+}
+*/
+
+
+#content_title {font-size: 35px; font-weight: bold; text-align: center; margin: 40px auto;}
+
+#errors {color: red;}

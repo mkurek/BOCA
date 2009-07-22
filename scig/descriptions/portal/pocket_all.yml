@@ -1,0 +1,40 @@
+width:		500
+height:		100
+mode:		reverse
+puzzle:		Pocket Cube
+parts:
+  - normal:
+      x:		0
+      y:		0
+      width:		100
+      height:		100
+      view:		3face
+      scheme:		BOY
+  - withbase:
+      x:		200
+      y:		0
+      width:		100
+      height:		100
+      view:		top2
+      scheme:		blacktop
+  - oll:
+      x:		100
+      y:		0
+      width:		100
+      height:		100
+      view:		3face
+      scheme:		OLL
+  - witharr:
+     x: 		300
+     y: 		0
+     width: 		100
+     height: 		100
+     view: 		3face_smartarrows
+     scheme: 		BOY
+  - down:
+     x: 		400
+     y: 		0
+     width: 		150
+     height: 		150
+     view: 		ss/down
+     scheme: 		ss/down

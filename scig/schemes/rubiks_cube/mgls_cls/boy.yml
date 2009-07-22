@@ -1,0 +1,6 @@
+all: gray
+U: yellow
+stickers:
+  gray: FRU FLU BRU BLU LUB RUB LUF RUF RU BU FU LU UL UF UR UB
+  white: DFR
+  

@@ -1,0 +1,14 @@
+
+#menu, #menu ul {list-style: none; width: 110px; display: inline; text-align: center;}
+
+#menu li {position: relative; line-height: 0; /* fix for IE */ margin: 0 0 -2px 0; float: left; }
+
+#menu a, #menu li:hover li a, #menu li:hover li:hover li a {color: #fff; background-color: #bf008c; border: 2px solid #fff; font-family: tahoma, sans-serif; font-size: 11px; text-decoration: none; font-weight: normal; display: block; width: 88px; padding: 0 5px; line-height: 18px; height: 18px;}
+
+#menu li:hover a, #menu li:hover li:hover a, #menu li:hover li:hover li:hover a {background: #666;}
+
+#menu li ul {height: 16px; width: 0; overflow: hidden; position: absolute; left: 0; top: 22px; padding: 0;}
+
+#menu li:hover ul li ul {height: 16px; width: 0; overflow: hidden; position: absolute; left: 101px; top: 0;  padding: 0;}
+
+#menu li:hover ul, #menu li:hover ul li:hover ul {width: 138px; height: auto; overflow: visible; z-index:1; /* fix for Opera */}

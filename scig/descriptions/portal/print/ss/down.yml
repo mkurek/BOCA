@@ -1,0 +1,12 @@
+width:		80
+height:		80
+mode:		reverse
+puzzle:		Pocket Cube
+parts:
+  - down pll:
+      x:		0
+      y:		0
+      width:		150
+      height:		150
+      view:		ss/down
+      scheme:		ss/down

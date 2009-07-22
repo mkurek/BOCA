@@ -1,0 +1,4 @@
+use cache:	true
+cache dir:	cache/
+debug:		false
+logs dir:	log/

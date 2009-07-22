@@ -1,0 +1,31 @@
+width:	150
+height:	150
+
+lines:
+  - 20 20 80 20
+  - 20 20 20 80
+  - 20 80 80 80
+  - 80 20 80 80
+  - 50 20 50 80 dark gray
+  - 20 50 80 50
+
+stickers:
+  - UBL 35 35
+  - UBR 65 35
+  - UFR 65 65
+  - UFL 35 65
+
+# sides
+  - BLU 21 15 49 18
+  - BRU 51 15 79 18
+  
+  - FLU 21 82 49 85
+  - FRU 51 82 79 85
+ 
+  - LUB 15 21 18 49
+  - LUF 15 51 18 79
+
+  - RUB 82 21 85 49
+  - RUF 82 51 85 79
+
+arrows: UBL UBR UFR UFL

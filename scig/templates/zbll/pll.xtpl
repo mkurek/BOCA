@@ -1,0 +1,4 @@
+<!-- BEGIN: main -->
+<tr><td align="center"><letter>{NAME}</letter></td><td align="center"><img src="../{IMAGE}"></td>
+<td align="center"><alg>{DATA}</alg></td><td><comment>{DESCRIPTION}</comment></td></tr>
+<!-- END: main -->

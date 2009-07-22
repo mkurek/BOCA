@@ -1,0 +1,12 @@
+width:		110
+height:		110
+mode:		reverse
+puzzle:		Pocket Cube
+parts:
+  - top pll:
+      x:		0
+      y:		0
+      width:		150
+      height:		150
+      view:		ortega/top
+      scheme:		ortega/oll

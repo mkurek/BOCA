@@ -1,0 +1,4 @@
+all:		transparent
+D:		white
+default:	white
+arrows:		dark red

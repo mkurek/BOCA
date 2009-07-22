@@ -1,0 +1,609 @@
+body {width: 920px; margin: 0 auto; height: auto; background-image: url(../images/back3.jpg); background-attachment: fixed; }
+
+* a {text-decoration: none;}
+
+img {border: 0;}
+
+a:link, a:visited, a:hover, a:active {
+color: #000000;
+text-decoration: none;
+}
+
+/* top */
+
+.banner {width: 100%; height: 200px; margin-bottom: 7px;}
+
+.menu_top {margin: 50 auto; /*border: 1px groove black;*/}
+
+
+/* menu right */
+
+.menu_r {width: 195px; float: right; margin-top: 10px;}
+
+.menu_r a {text-decoration: none; color: black;}
+
+#menu_content2 th {text-align: left;}
+#login_table {width: 100%;}
+
+#inp {float: right;}
+
+#menu_part { height: auto; width: 100%; margin-top: 20px;} 
+
+#menu_content, #menu_content2 {border: 1px groove black; margin: 0 1px 0 1px;}
+
+#menu_content {padding: 15px;}
+
+#menu_content2 {padding: 7px;}
+
+#menu_content div {margin-top:8px;}
+
+.menu_r #active {background: #DDFFDD; margin-left: -15px; margin-right: -15px; padding-left: 15px; font-weight: bold; }
+
+/*content */
+
+
+.content {float: left; margin: 5px 5px; height: auto; text-align: center; width: 77%; padding-right: 2px;}
+
+#main_title {font: 25px normal Verdana; font-weight: bold; margin: 20px auto;}
+
+#subtitle {font: 20px normal Verdana; font-weight: bold; margin: 20px auto;}
+
+#text2 {text-align: justify; margin-top: 20px; padding: 10px;}
+
+#scig_cats table {margin: 10px auto; width: 100%; }
+
+/*footer */
+
+
+.footer {border-top: 3px double black; text-align: center; padding-top: 20px; font-style: italic; font-size: 15px; font-family: Tahoma; width: 70%; margin: 20px auto;}
+
+/* register */
+
+#content_title {font-size: 35px; font-weight: bold; text-align: center; margin: 40px auto;}
+
+#errors, #error 
+{
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px auto;
+}
+
+#content_content {margin: 10px auto; }
+
+#content_content table {border-spacing: 120px 20px; margin: 0 auto;}
+
+/* add_algs */
+
+#form_parts {
+	margin: 20px auto;
+}
+
+.form_part
+{
+	margin: 15px auto;
+	border-bottom: 1px groove silver;
+	width: 300px;
+}
+
+.form_area
+{
+	margin: 20px; 
+}
+
+#captcha
+{
+	margin: 20px auto; 
+	text-align: center;
+}
+	
+#captcha img
+{
+	margin-right: 20px;
+	vertical-align: middle;
+}	
+
+#message 
+{
+	color: green;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px auto;
+}
+
+#bold
+{
+		font-weight: bold;
+}
+
+/* algi */
+
+
+#clear
+{
+	clear: both;
+}
+
+#left
+{
+	float: left;
+}
+
+#right
+{
+	float: right;
+}
+
+#left, #right 
+{
+	width: 50%;
+	margin: 10px auto;	
+}
+
+
+/* IMG_CATS */
+
+#cats
+{
+	text-align: left;
+	margin: 5px;
+	border-spacing: 7px;
+}
+
+#cats td
+{
+	border-right: 3px double black;
+	padding-right: 7px;
+	font-style: normal;
+	font-size: 107%;
+}
+
+#cats #cat
+{
+	margin-left: 5px; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom: 2px dotted silver;
+}
+
+#cat_title
+{
+	font: 18px normal Verdana;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+/* cat */
+
+#printbuttons
+{
+	padding-top: 10px; 
+}
+
+#printbutton
+{
+	display: inline; margin-right: 20px;
+}
+
+#cell
+{
+	margin: 20px 10px 10px 10px;
+	font-weight: bold;
+	outline: 1px groove silver;
+	padding: 5px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#left #cell, #right #cell
+{	
+	font-size: 18px;
+}
+
+#top
+{
+	margin: 10px 50px;
+	font-weight: bold;
+	padding: 5px;
+	border-bottom: 3px double silver;
+}
+
+#cell:hover
+{
+	outline: 1px groove yellow; 
+	background: silver;
+}
+
+#table_cell, #table_top
+{
+	border-spacing: 2px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+#table_cell th, td
+{
+	font-style: italic;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#table_top th, td
+{
+	font-style: italic;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
+
+/* case */
+
+
+#scig2 
+{
+	border: 1px groove silver; 
+	padding: 5px;
+	margin: 10px auto;
+}
+
+#scig2 table 
+{
+	border-spacing: 2px 0; 
+	margin: 0 auto; 
+	text-align: center;
+}
+
+#scig2 td 
+{
+	vertical-align: middle;
+	font-style: italic;
+}
+
+#scig2 img {margin: 0 auto;}
+
+
+#title
+{
+	font: 25px bold Arial;
+	margin: 10px auto;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	border-bottom: 3px double black;
+}
+
+#title2, #jac
+{
+	font: 20px normal Arial;
+}
+
+#tree
+{
+	text-align: left;
+	/* padding: 10px; */
+}
+
+#case_cats, #jac
+{
+	margin: 20px auto; 	  	
+}
+
+#case_cats #cat
+{
+	font: 15px normal Verdana;
+	margin-top: 8px;
+	text-align: center;
+}
+
+#algs
+{
+	border-top: 3px double black;
+	padding-top: 20px;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+#alg
+{
+	/*outline: 2px groove yellow;	*/
+	margin-bottom: 30px;
+	height: auto;
+}
+
+#row, #row2, #row3, #my_alg30, #my_alg50, #alg_info100, #alg_info30, #alg_info50, #vote30, #vote50, #pole1, #pole2
+{
+	vertical-align: middle;
+	height: auto;
+}
+
+#row
+{
+ width: 100%;
+}
+
+#row2
+{
+	border-top: 1px dotted silver;
+	font-style: italic;
+}
+
+#row3
+{
+   padding-top: 5px;
+	border-top: 1px dotted silver;
+	margin-bottom: -20px;
+}
+
+#alg_ma
+{float: left;}
+
+#alg_main
+{
+	float: left;
+	vertical-align: middle;
+	font: 18px bold Verdana;
+	padding-left: 10px;
+	margin-bottom: 5px;
+}
+
+#alg_moves
+{
+float: right;
+padding: 2px;	
+}
+
+#my_alg30, #my_alg50
+{
+	float: left;
+	border-right: 5px double black;
+	font-weight: bold;
+	margin: 5px 0;
+}
+#my_alg30
+{
+	width: 30%;
+}
+#my_alg50
+{
+	width: 50%;
+}
+
+#alg_info30, #alg_info50
+{
+ 	float: left;
+}
+#alg_info30, #alg_info50
+{
+	margin: 5px 25px;	
+}
+
+#alg_info30
+{
+	width: 30%;
+}
+#alg_info50, #alg_info100
+{
+	width: 40%;
+}
+#alg_info100
+{
+	margin: 5px auto;
+	padding-bottom: 13px;
+}
+
+#pole1
+{
+	float: left;
+	
+}
+#pole2
+{
+	float: right;
+}
+
+#vote30, #vote50
+{
+	float: right;
+	border-left: 5px double black;
+	margin: 5px 0;
+}
+#vote50
+{
+	width: 50%;
+}
+#vote30
+{
+	width: 30%;
+}
+
+#clear_bor
+{
+	border-top: 2px groove silver;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	clear: both;
+}
+
+.top_button
+{
+  	font-size: 16px;
+  	font-weight: bold;
+  
+}
+
+
+/* add_algs */
+
+.bold
+{
+	font-weight: bold;
+}
+
+#add_part
+{
+	margin: 10px auto;
+}
+
+#text
+{
+	font: 25px Verdana;
+	font-weight: bold;
+	margin-top: 40px;
+
+}
+
+
+#content_foot
+{
+	margin-top: 30px;
+	font-style: italic;
+}
+
+#tree 
+{
+	margin: 10px 0 15px 0;
+	font-weight: bold;
+	font-size: 15px;
+	
+}
+
+#tree #part
+{
+	text-decoration: underline;
+}
+
+#tabela
+{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#tabela #cell
+{
+	margin: 10px;
+	padding: 10px;
+}
+
+#act_page
+{
+	font-weight: bold;
+}
+
+#avg
+{
+	padding-top: 20px;
+}
+
+#report 
+{
+  	font-size: 20px;
+	font-weight: bold;
+  
+}
+
+#report #cell2
+{
+  	margin-top: 5px;
+}
+
+
+#img_cats #cat
+{
+  	margin-top: 15px;
+  	border-bottom: 4px double black;
+}
+
+.margin_top_20
+{
+  	margin-top: 50px;
+  
+}
+
+
+/* news */
+
+
+
+#news_added, #comment_added
+{	
+  	
+  	padding: 5px 15px;
+  	font-style: italic;
+  	font-size: 14px;
+  	color: #708090;
+  
+}
+
+#news_cell 
+{
+  	/*border: 1px groove black;*/
+	border-bottom: 2px groove #414141;
+  	width: 85%;
+  	margin: 30px auto;
+  	padding: 15px;
+  	text-align: left;
+}
+
+#news_cell #news_content, #comment_content
+{
+  	
+  	text-align: left;
+  	padding: 20px 15px;
+  	font-size: 18px;
+}
+
+#news_title 
+{
+  
+  	font-size: 20px;
+  	font-weight: bold;
+  	padding: 10px 15px;
+  	
+} 
+
+#news_foot, #comment_top
+{  
+  	padding: 5px 15px;
+  	font-size: 14px;
+  	font-style: italic;
+}
+
+
+#news_comments
+{
+  	width: 90%;
+  	margin: 10px auto;
+	  
+} 
+
+
+#news_comments_title
+{
+  	font-size: 18px;
+  	padding: 10px;
+  	border-bottom: 2px groove black;
+}
+
+#comment_cell
+{
+  	border-bottom: 1px dotted #414141;
+  	margin: 15px auto;
+  	padding: 5px;
+  	text-align: left;
+}
+
+
+#add_comment
+{
+  	margin: 20px auto;
+}
+
+#message_small
+{
+ 	color: red;
+	margin-top: 20px;
+	font-size: 15px; 
+  	
+}

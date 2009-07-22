@@ -1,0 +1,31 @@
+width:	150
+height:	150
+
+lines:
+  - 20 20 80 20
+  - 20 20 20 80
+  - 20 80 80 80
+  - 80 20 80 80
+  - 50 20 50 80 dark gray
+  - 20 50 80 50
+
+stickers:
+  - DBL 35 35
+  - DBR 65 35
+  - DFR 65 65
+  - DFL 35 65
+
+# sides
+  - LDB 21 15 49 18
+  - RDB 51 15 79 18
+  
+  - LDF 21 82 49 85
+  - RDF 51 82 79 85
+ 
+  - BLD 15 21 18 49
+  - FLD 15 51 18 79
+
+  - BRD 82 21 85 49
+  - FRD 82 51 85 79
+
+arrows: DBL DBR DFR DFL

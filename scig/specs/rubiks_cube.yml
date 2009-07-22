@@ -1,0 +1,91 @@
+stickers:
+  - edges:
+    - [UF, FU]
+    - [UR, RU]
+    - [UB, BU]
+    - [UL, LU]
+    - [DF, FD]
+    - [DR, RD]
+    - [DB, BD]
+    - [DL, LD]
+    - [FR, RF]
+    - [FL, LF]
+    - [BR, RB]
+    - [BL, LB]
+  - corners:
+    - [UFR, FRU, RUF]
+    - [UFL, FLU, LUF]
+    - [UBR, BRU, RUB]
+    - [UBL, BLU, LUB]
+    - [DFR, FRD, RDF]
+    - [DFL, FLD, LDF]
+    - [DBR, BRD, RDB]
+    - [DBL, BLD, LDB]
+  - centers:
+    - U
+    - D
+    - F
+    - B
+    - R
+    - L
+faces:
+  - U:
+    - U
+    - UF
+    - UR
+    - UB
+    - UL
+    - UFR
+    - UFL
+    - UBR
+    - UBL
+  - D:
+    - D
+    - DF
+    - DR
+    - DB
+    - DL
+    - DFR
+    - DFL
+    - DBR
+    - DBL
+  - F:
+    - F
+    - FU
+    - FR
+    - FD
+    - FL
+    - FRU
+    - FLU
+    - FRD
+    - FLD
+  - B:
+    - B
+    - BU
+    - BD
+    - BR
+    - BL
+    - BRU
+    - BLU
+    - BRD
+    - BLD
+  - R:
+    - R
+    - RF
+    - RB
+    - RU
+    - RD
+    - RUF
+    - RDF
+    - RUB
+    - RDB
+  - L:
+    - L
+    - LU
+    - LD
+    - LF
+    - LB
+    - LUF
+    - LUB
+    - LDF
+    - LDB

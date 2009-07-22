@@ -1,0 +1,15 @@
+description:	sample/pll
+template:	sample/pll
+algorithms:
+  -
+    data: (R'UR'U')(R'U'R'U)(RUR2)
+    description: Easiest case.
+    name: U
+  -
+    data:  (RUR'U'R'FR2U'R'U')(RUR'F')
+    description: Can be done very fast (over 10 mps).
+    name: T
+  -
+    data: (FRU'R'U'RUR'F')(RUR'U'R'FRF')
+    description: Long, but very fast alg.
+    name: "Y"

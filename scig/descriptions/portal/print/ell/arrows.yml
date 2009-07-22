@@ -1,0 +1,12 @@
+width:		120
+height:		120
+mode:		reverse
+puzzle:		Rubiks Cube
+parts:
+  - witharr:
+     x: 		0
+     y: 		0
+     width: 		120
+     height: 		120
+     view: 		ell/3face_smartarrows
+     scheme: 		ell/BOY

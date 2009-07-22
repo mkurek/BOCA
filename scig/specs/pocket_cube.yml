@@ -1,0 +1,41 @@
+stickers:
+  - corners:
+    - [UFR, FRU, RUF]
+    - [UFL, FLU, LUF]
+    - [UBR, BRU, RUB]
+    - [UBL, BLU, LUB]
+    - [DFR, FRD, RDF]
+    - [DFL, FLD, LDF]
+    - [DBR, BRD, RDB]
+    - [DBL, BLD, LDB]
+faces:
+  - U:
+    - UFR
+    - UFL
+    - UBR
+    - UBL
+  - D:
+    - DFR
+    - DFL
+    - DBR
+    - DBL
+  - F:
+    - FRU
+    - FLU
+    - FRD
+    - FLD
+  - B:
+    - BRU
+    - BLU
+    - BRD
+    - BLD
+  - R:
+    - RUF
+    - RDF
+    - RUB
+    - RDB
+  - L:
+    - LUF
+    - LUB
+    - LDF
+    - LDB

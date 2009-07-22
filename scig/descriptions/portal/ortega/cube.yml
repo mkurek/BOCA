@@ -1,0 +1,12 @@
+width:		150
+height:		150
+mode:		reverse
+puzzle:		Pocket Cube
+parts:
+  - normal:
+      x:		0
+      y:		0
+      width:		150
+      height:		150
+      view:			ortega/3face
+      scheme:		ortega/BOY

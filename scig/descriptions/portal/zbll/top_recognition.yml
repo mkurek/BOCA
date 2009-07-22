@@ -1,0 +1,12 @@
+width:		150
+height:		150
+mode:		reverse
+puzzle:		Rubiks Cube
+parts:
+  - top:
+      x:		0
+      y:		0
+      width:		150
+      height:		150
+      view:		zbll/top
+      scheme:		zbll/BOY

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="mambot" group="content" version="0.1">
+<name>SCIG mambot</name>
+<creationDate>16/08/2006</creationDate>
+<author>Tomasz Piotrowski</author>
+<copyright>(C) 2006 Tomasz Piotrowski. All rights reserved.</copyright>
+<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+<authorEmail>tomahawk@loiv.torun.pl</authorEmail>
+<authorUrl>scig.sourceforge.net</authorUrl>
+<description>Inserts SCIG images into content.</description>
+<version>0.1</version>
+<files>
+<filename mambot="scig_bot">scig_bot.php</filename>
+</files>
+</mosinstall>

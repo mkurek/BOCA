@@ -1,0 +1,12 @@
+width:		120
+height:		120
+mode:		reverse
+puzzle:		Rubiks Cube
+parts:
+  - withbase:
+      x:		0
+      y:		0
+      width:		120
+      height:		120
+      view:		pll/top
+      scheme:		pll/blacktop

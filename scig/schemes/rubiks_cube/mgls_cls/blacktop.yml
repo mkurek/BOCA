@@ -1,0 +1,7 @@
+all:		transparent
+U:		yellow
+D:      black
+default:	white
+arrows:		dark red
+stickers:
+    transparent: UF UL UB UR

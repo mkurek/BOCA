@@ -1,0 +1,12 @@
+width:		120
+height:		120
+mode:		reverse
+puzzle:		Rubiks Cube
+parts:
+  - oll:
+      x:		0
+      y:		0
+      width:		120
+      height:		120
+      view:		zbf2l/3face
+      scheme:		zbf2l/OLL

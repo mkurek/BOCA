@@ -1,0 +1,7 @@
+all:	gray
+U:	yellow
+stickers:
+  blue: FRU FLU
+  red: RUF RUB
+  green: BRU BLU
+  orange: LUF LUB

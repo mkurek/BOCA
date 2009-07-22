@@ -1,0 +1,12 @@
+width:		120
+height:		120
+mode:		reverse
+puzzle:		Pocket Cube
+parts:
+  - down pll:
+      x:		0
+      y:		0
+      width:		200
+      height:		200
+      view:		eg/down
+      scheme:		eg/down

@@ -1,0 +1,8 @@
+all:	gray
+
+stickers:
+  white: D DF DR DB DL
+  red: F FD
+  green: R RD
+  orange: B BD
+  blue: L LD

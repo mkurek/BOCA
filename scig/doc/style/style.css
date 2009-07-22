@@ -1,0 +1,60 @@
+body {
+	font-family:	verdana;
+	background:	#CCCCCC;
+	margin:		20px 20px 20px 20px;
+}
+
+alg {
+	font-weight:	bold;
+	font-size:	14px;
+}
+
+comment {
+	font-style:	italic;
+	font-size:	12px;
+}
+
+letter {
+	font-size:	32px;
+	font-weight:	bold;
+}
+
+a:link {
+	color:		black;
+}
+
+a:hover {
+	color:		white;
+}
+
+a:visited {
+	color:		black;
+}
+
+.code {
+	padding:	10px 10px 10px 10px;
+	margin:		10px 10px 10px 10px;
+	border:		1px solid;
+	width:		85%;
+	background:	white;
+	font-family:	courier;
+}
+
+pre {
+	padding:	10px 10px 10px 10px;
+	margin:		10px 10px 10px 10px;
+	border:		1px solid;
+	width:		85%;
+	background:	white;
+}
+
+term {
+	font-style:	italic;
+	font-weight:	bold;
+}
+
+.def {
+	margin:		10px 10px 10px 10px;
+	padding:	10px 10px 10px 10px;
+
+}

@@ -1,0 +1,5 @@
+all:		transparent
+default:	white
+stickers:
+ black: U UFR UFL UBL UBR
+arrows:		dark red
