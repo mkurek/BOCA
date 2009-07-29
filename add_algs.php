@@ -25,72 +25,25 @@ if($_POST['algs'] !== '' and ($_SESSION['login'] == 1 or checkCaptcha($_POST['ca
 			$algs[] = stripslashes($alg);
 	}
 	
-	// moje - start
-	
-	$ok = 0;
-	$bad = 0;
-	$bad_line = 0;
-	$bad_line2 = 0;
-	$movement = array();
-
-	$query = "SELECT * FROM portal_addalgs_cats_algs;";
-	$result = query($query);
-	while($row = mysql_fetch_assoc($result))
-	{ 
-  		// cats
-  		$cats[] = $row['cat'];
-  	
-  		// cats_algs
-  		$cats_algs[$row['cat']] = $row['cat_alg'];
-  	
-  		// cats_ok
-  		$cats_ok[$row['cat']] = array();
-	}
-	
-
-	//$cats = array('cll', 'ell', 'f2ll');
-
-	// moves
-
-	$query = "SELECT * FROM portal_addalgs_moves;";
-	$result = query($query);
-	while($row = mysql_fetch_assoc($result)) 
-	{
-  		if($row['moves'] == NULL || $row['moves'] == '') $moves[$row['cat']] = array('');
-  		else $moves[$row['cat']] = explode(',', $row['moves']);
-	}
-
-	// movement
-	$query = "SELECT * FROM portal_addalgs_movement;";
-	$result = query($query);
-	while($row = mysql_fetch_assoc($result)) $movement[$row['cat']][] = $row['cat2'];
-	
-	// moje - end
-	
-	
 	$good = 0;
 	$bad = 0;
 	
-	$if_ma = $_POST['if_ma'];	
+	$if_ma = $_POST['if_ma'];
 	$start_time = microtime(true);
-	
-	//echo $if_ma.'<br />';
-	
 	foreach($algs as $alg)
 	{
-		//$result = add_alg($alg, $_SESSION['uid'], $if_ma);
-		
-		$result = add_alg($alg, $_SESSION['uid'], $if_ma, $cats, $cats_algs, $cats_ok, $moves, $movement);
-		//echo '$alg: '.$alg.' -> $result: ';
-		//var_dump($result);
-		if($result == 'gut' && $_POST['if_ma'] =='on')
+        $result = add_alg($alg, $_SESSION['uid'], $if_ma);
+		if($result == 'gut')
 			$good++;
-		else
-		{
-			  $bad++;
-			  if($result[0] == 'no_sid') $no_sid[] = $alg;
-			  else $cloned[] = $alg;
-  		}
+        else if($result == 'cloned')
+        {
+            $bad++;
+            $cloned[] = $alg;
+        } else
+        {
+            $bad++;
+            $bad_sid[] = $alg;
+        }
 			
 	}
 	$processing_time = microtime(true) - $start_time;
@@ -102,17 +55,16 @@ if($_POST['algs'] !== '' and ($_SESSION['login'] == 1 or checkCaptcha($_POST['ca
 		echo json_encode(array(
 			'good' => $good,
 			'bad' => $bad,
-			'cloned' => $cloned,
-			'no_sid' => $no_sid;
+            'cloned' => $cloned,
+            'unrecognized' => $bad_sid,
 			'total' => count($algs),
 			'time' => $processing_time,
 		));
 	} else
 	{
-		$smarty -> assign('ok', $good);
+		$smarty -> assign('ok', $ok);
 		$smarty -> assign('bad', $bad);	
-		$smarty -> assign('cloned', $cloned);
-		$smarty -> assign('no_sid', $no_sid);
+		$smarty -> assign('bads', $bads);
 		$smarty -> display('add_algs.tpl');
 	}
 }
