@@ -25,7 +25,7 @@ html .jqueryslidemenu{height: 1%;} /*Holly Hack for IE7 and below*/
 <![endif]-->
 {/literal}
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="css/jqueryslidemenu.js"></script>
 <link rel="stylesheet" type="text/css" href="css/style2.css" />
 

@@ -2,7 +2,6 @@
 <div class="content">
 {if $what == 'show_form'}
 {if $use_js}
-<script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript">
 // Localized messages
 var msg_send = '{#Send#}';
