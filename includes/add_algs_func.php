@@ -508,7 +508,7 @@ function add_alg($alg, $uid, $if_ma, $cats, $cats_algs, $cats_ok, $moves, $movem
 
 	if($clon === true) return array('cloned', $sids);
 	if($licznik == 0) return array('no_sid');
-	return 'gut';
+	return array('gut');
 		
 }
 

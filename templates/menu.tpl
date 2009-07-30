@@ -44,7 +44,7 @@
  	</div>
  	
  	<div id="menu_part">
- 		<div id="menu_header"><img src="images/{$lang}/addalgs.png" /></div>
+ 		<div id="menu_header"><img src="images/{$lang}/algpreview.png" /></div>
  		<div id="menu_content">
 		 	<form name='check_algs'>
 		 		<table>

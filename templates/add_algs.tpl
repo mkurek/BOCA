@@ -35,11 +35,11 @@ var progress_html = (<r><![CDATA[
 // Displayed at the end
 var report_html = (<r><![CDATA[
 <div id="report">
-    <div>Processed algorithms: <span id="total_algs"></span></div>
-    <div>Successfully added: <span id="success"></span></div>
+    <div>Processed algorithms: <span id="total_algs_num"></span></div>
+    <div>Successfully added: <span id="success_num"></span></div>
     <div>Duplicates: <span id="duplicate_num"></span></div>
-    <div>Unrecognized: <span id="unrecognized_num"></span></div>
     <ul id="duplicate"></ul>
+    <div>Unrecognized: <span id="unrecognized_num"></span></div>
     <ul id="unrecognized"></ul>
 </div>
 ]]></r>).toString();
@@ -66,7 +66,7 @@ var cloned_algs = [];
 function begin_process()
 {
     algs_input = $('#algs_input').val();
-
+    if_ma = $('#if_ma').val();	
     create_progress();
     draw_status(msg_processing);
 
@@ -141,14 +141,15 @@ function create_final_report()
 
     $('#total_algs_num').html(algs.length);
     $('#success_num').html(good);
-    $('#duplicate_num').html(cloned_algs.length);
     $('#unrecognized_num').html(unrecognized_algs.length);
 
     for(var i = 0; i < unrecognized_algs.length; i++)
         $('<li></li>').html(unrecognized_algs[i]).appendTo('#unrecognized');
 
+    $('#duplicate_num').html(cloned_algs.length);
+
     for(var i = 0; i < cloned_algs.length; i++)
-        $('<li></li>').html(cloned_algs[i]).appendTo($('#duplicate'));
+        $('<li></li>').html(cloned_algs[i]).appendTo('#duplicate');
 }
 
 function create_progress()
@@ -236,11 +237,11 @@ function cycle(idx, message)
     jQuery.ajax({
             'type': 'POST',
             'url': 'add_algs.php',
-            'data': {'algs': data.join('\n'), 'output': 'json'},
+            'data': {'algs': data.join('\n'), 'if_ma': if_ma, 'output': 'json'},
             'cache': false,
             'dataType': 'json',
             'success': on_data_received_factory(end),
-            'error': on_error_factory(idx),
+            //'error': on_error_factory(idx),
     });
 }
 
@@ -269,7 +270,7 @@ $(document).ready(function()
 <div id="clear"> </div>
 
 {if $log_status == 1}
-<div id="bold"><input type="checkbox" checked="chcecked" name="if_ma" />{#Add_with_MA#}</div>
+<div id="bold"><input type="checkbox" checked="chcecked" name="if_ma" id="if_ma" />{#Add_with_MA#}</div>
 {else}
 <div id="captcha"><img src="includes/captcha.php" /><input type="text" name="captcha" /></div>
 {/if}
